@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="">
+    
+</head>
+<body>
+
+    <form class="formulario1"> 
+        <div class="goup">
+            <div class="card-top">
+                <img class="inglogin" src="Logo sesi.bmp" alt="">
+                <h1 id="title">Cadastro</h1>
+                <p id="subtitulo"> Complete com suas informações</p>
+                </div>
+
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" placeholder="Digite seu Nome" id="nome" required="">
+            </div>
+
+           <div class="campo">
+               <label for="sobrenome"><strong>Sobrenome</strong></label>
+               <input type="text" name="sobrenome" placeholder="Digite seu Sobrenome" id="sobrenome" required="">
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email (Usar o Email fornecido pelo SESI)</strong></label>
+                <input type="email" name="email" placeholder="Digite seu Email" required="">
+            </div>
+
+            <div class="campo">
+                <label> <strong>De qual Ensino você é?</strong></label>
+                <select id="de qual ensino você é?">
+                    <option selected="" disabled="" value="">Selecione qual Ensino você está</option>
+                    <option>Ensino Medio</option>
+                    <option>Ensino fuldamental</option>
+                </select>
+        </div>
+
+    
+    <button class="button" type="submit"><strong>Enviar</strong></button>
+    
+
+</form>
+
+</body>
+</html>
